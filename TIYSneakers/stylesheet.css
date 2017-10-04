@@ -1,0 +1,300 @@
+/*basic functions for site*/
+
+body{
+  font-family: 'Jaldi', sans-serif;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav a{
+  text-decoration: none;
+  margin-left: .5em;
+
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+
+h1{
+  font-size: 2.5em;
+  color: white;
+  text-transform: capitalize;
+  padding:0;
+  margin: 0;
+}
+
+
+h2{
+  font-size: 1.1em;
+  text-transform: uppercase;
+  color: brown;
+  padding: 0;
+  margin: 0;
+}
+
+h3{
+  font-size: 2em;
+  color: white;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+}
+
+h4{
+  font-size:2em;
+  padding: 0;
+  margin: 0;
+}
+
+h5{
+  font-size: 1.5em;
+  color: black;
+  background-color: lightpink;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+h6{
+  font-size: 1.3em;
+  color: white;
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+
+}
+
+sup{
+  font-size: .5em;
+}
+
+.hidden{
+  display: none;
+}
+
+
+
+/*main navigation*/
+
+.headerNav{
+  margin-bottom: .8em;
+
+}
+
+.headerNavLeft img{
+  width: 15%;
+}
+
+
+.headerNavLeft a{
+  font-size: 1.2em;
+  color: #FF512F;
+  text-transform: uppercase;
+}
+
+.headerNav a:hover{
+  color: #D22D7A;
+  border-bottom: 1px solid #D22D7A;
+}
+
+.headerNav a:active{
+  color: #D22D7A;
+  border-bottom: 1px solid #D22D7A;
+
+}
+
+
+/*headerNavRight right side nav bar*/
+
+.headerNavRight{
+  padding-right: 1em;
+}
+.headerNavRight a{
+  font-size: 1rem;
+  color: #FF512F;
+  text-transform: capitalize;
+}
+
+
+
+/*Main image and text container*/
+
+.mainImgContainer{
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(to right, #D22D7A, #FF512F);
+  overflow: auto;
+  padding: 2%;
+}
+
+.mainImgContainer img{
+  width: 75%;
+
+}
+
+/*mainImgContainerLeft*/
+
+.mainImgContainerLeft{
+  width: 60%;
+}
+
+.mainImgContainerLeft a{
+  text-transform: uppercase;
+  color:white;
+  display: flex;
+  align-self: flex-start;
+  padding: 1em;
+}
+
+
+/*mainImgContainerRight*/
+
+
+.mainImgContainerRight{
+  width: 40%;
+}
+
+.mainImgContainerRight a{
+  text-transform: capitalize;
+  color: blue;
+  text-decoration: none;
+  float: right;
+
+}
+
+/*For the border in the right section*/
+
+.mainParagraph{
+  border-top: 2px dashed brown;
+  border-bottom: 2px dashed brown;
+  padding:0;
+  margin:0;
+
+}
+
+/*buy Now Button, need to adjust it not overflowing*/
+
+.buyNowButton{
+  width: 30%;
+  height: 10%;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  border-radius: 5px;
+  color: #FF512F;
+  background: white;
+  padding: 0;
+  margin-bottom: 1em;
+  border: 1px solid transparent;
+
+}
+
+.buyNowButton:hover{
+  color: white;
+  background-color: #FF512F;
+  border: 1px solid white;
+}
+
+.buyNowButton a:active{
+  color: #D22D7A;
+  border-bottom: 1px solid #D22D7A;
+
+}
+/*body navigation for javascript linking*/
+
+.bodyNav{
+
+    border-bottom: 1px solid lightpink;
+}
+
+.bodyNav a{
+  text-transform: capitalize;
+  font-size: 1.3em;
+  padding-right: 1em;
+}
+
+.bodyNav a:hover{
+  color: #D22D7A;
+  border-bottom: 2px solid #D22D7A
+
+}
+
+.sizeAndFit{
+  color: #FF512F;
+}
+.productDetails{
+  color: #FF512F;
+}
+.reviews{
+  color: lightpink;
+  float: right;
+}
+/*Main Content Navigation to be javascript linked*/
+
+.firstTopic{
+  display:block;
+}
+
+.secondTopic{
+  display: none;
+}
+
+.thirdTopic{
+  display:none;
+}
+
+/*container for secondary shoe images needs to be flex and display items as flex items*/
+.secondaryImg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(to right, #D22D7A, #FF512F);
+
+}
+
+.secondaryImgContainer img{
+  width: 50%;
+}
+
+/*footer navigation css and secondary footer nav*/
+
+
+.footerNav img{
+  width: 10%;
+}
+
+.footerNav{
+  padding:0;
+}
+
+
+.footerNav a{
+  font-size: 1.2em;
+  color: #FF512F;
+  text-transform: uppercase;
+}
+
+.footerNav a:hover{
+  color: #D22D7A;
+  border-bottom: 1px solid #D22D7A;
+}
+
+.footerNav a:active{
+  color: #D22D7A;
+  border-bottom: 1px solid #D22D7A;
+
+}
+
+.footerNavRight a{
+  color: gray;
+
+}

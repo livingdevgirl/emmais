@@ -3,10 +3,8 @@ body{
   flex-direction: column;
   font-family: sans-serif;
   font-family: 'Life Savers', cursive;
-
   background: black;
 }
-
 
 a{
   text-decoration: none;
@@ -14,6 +12,12 @@ a{
   font-family: 'Lily Script One',cursive;
   font-size: 2.2rem;
 
+}
+
+h1{
+   color: teal;
+   font-family: 'Lily Script One',cursive;
+   font-size: 2.2rem;
 }
 
 nav{
@@ -28,4 +32,70 @@ nav{
 .iframe{
   align-self: center;
   top: 10rem;
+}
+
+.resume{
+  border-top: 2px solid teal;
+  align-self: center;
+  background: #eee;
+  color: teal;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.resume h2{
+  font-size: 1.5em;
+  color: #ed9087;
+}
+
+.resume h2:hover{
+  color:#F25d55;
+  font-size: 1.6em;
+}
+
+.basicInfo{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-self: flex-start;
+}
+
+.contactInformation{
+  padding-right: 3em;
+
+}
+
+.mainResume{
+  display: flex;
+  flex-direction: column;
+}
+
+.education{
+  margin-bottom: 2em;
+  padding-left: 1em;
+  min-width: 50vw;
+  border-left: 2px solid #F25d55;
+}
+
+.resume h1{
+  color: #F25d55;
+  font-weight: lighter;
+  text-decoration: underline teal;
+  font-size: 3em;
+  align-self: center;
+}
+
+.resume ul{
+  list-style: none;
+}
+
+.resume a{
+  font-size: 1em;
+  font-family: 'life savers',cursive;
+  color: teal;
+}
+.resume a:hover{
+  color: #F25d55;
 }
